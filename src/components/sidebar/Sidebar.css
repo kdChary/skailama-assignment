@@ -141,6 +141,7 @@ aside{
 .active{
 	background: #7e22ce;
 	padding: 0 3px;
+	color: #fff;
 	.circle{
 		background: #211935;
 		.icon{
