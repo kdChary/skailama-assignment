@@ -1,0 +1,40 @@
+.homeBtn {
+	padding: 2px 13px;
+	position: relative;
+	left: 120px;
+
+	button {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+
+		border: none;
+		border-radius: 50px;
+		background: #fff;
+		padding: 5px 13px;
+		transition: all 0.2s;
+		/* box-shadow: 2px 4px 12px #00000025; */
+
+		&:hover {
+			box-shadow: 2px 4px 15px #00000050;
+			transform: translateY(-3px);
+		}
+
+		&:active {
+			box-shadow: 2px 4px 5px #00000025;
+			transform: translateY(-2px);
+		}
+
+		img {
+			width: 23px;
+			align-self: center;
+		}
+
+		h6 {
+			font-size: 14px;
+			/* font-weight: 500; */
+			color: #1e293b;
+			margin-top: 2.6px;
+		}
+	}
+}
