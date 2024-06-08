@@ -1,7 +1,9 @@
 .homeBtn {
+	width: 300px;
 	padding: 2px 13px;
 	position: relative;
 	left: 120px;
+	animation: appear 2.5s;
 
 	button {
 		display: flex;
@@ -36,5 +38,17 @@
 			color: #1e293b;
 			margin-top: 2.6px;
 		}
+	}
+}
+
+@keyframes appear {
+	from{
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	to{
+		opacity: 1;
+		transform: scale(1);
 	}
 }
