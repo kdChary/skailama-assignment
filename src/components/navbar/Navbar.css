@@ -7,7 +7,7 @@ nav {
 	padding: 13px 25px;
 }
 
-.left {
+nav>.left {
 	display: flex;
 	align-items: center;
 	gap: 5px;
@@ -24,7 +24,7 @@ nav {
 	}
 }
 
-.right {
+nav>.right {
 	display: flex;
 	align-items: center;
 	gap: 20px;

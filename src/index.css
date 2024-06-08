@@ -25,6 +25,7 @@ a{
 button{
   font-family: inherit;
   cursor: pointer;
+  outline: none;
 }
 
 /* styling the pages according to alignment of nav and sidebar */
@@ -49,7 +50,7 @@ button{
     flex: 1;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    /* align-items: center; */
     gap: 24px;
   }
 }
