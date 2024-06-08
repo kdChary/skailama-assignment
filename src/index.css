@@ -27,22 +27,37 @@ button{
   cursor: pointer;
 }
 
+/* styling the pages according to alignment of nav and sidebar */
 .page{
   display: flex;
-  }
+
   .content{
-    flex: 1;
-    padding: 48px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    animation: moveInRight ease 1s;
+      flex: 1;
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      animation: moveInRight ease 1s;
+  }
 }
 
+.verticalPage{
+  display: flex;
+  flex-direction: column;
+
+  .content{
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 24px;
+  }
+}
 .title{
   color: #7e22ce;
   letter-spacing: 1px;
   line-height: 1.5;
+  /* text-transform: capitalize; */
 }
 
 input{
