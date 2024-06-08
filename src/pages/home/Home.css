@@ -1,0 +1,64 @@
+.verticalPage {
+
+	.content {
+		/* gap: 10px; */
+		width: 75%;
+		align-self: center;
+		margin-top: 1px;
+		/* border: solid 1px #455; */
+
+		.title {
+			font-size: 39px;
+			font-weight: bolder;
+		}
+
+		img {
+			width: 350px;
+		}
+
+			.textWrapper {
+			width: 80%;
+			p {
+				font-size: 14px;
+				text-align: center;
+				line-height: 1.5;
+				letter-spacing: 0.7px;
+				color: #838383;
+			}
+		}
+
+		.createProjectCard{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 10px;
+			background-color: #211935;
+			border: solid 0.5px #211935;
+			border-radius: 7px;
+			padding: 10px 23px;
+			color: #f8f8f8;
+			/* transition: all 1s; */
+			animation: moveUp ease 2s;
+
+			img{
+				width: 30px;
+			}
+		}
+	}
+}
+
+
+@keyframes moveUp {
+	0%{
+		opacity: 0;
+		transform: translateY(100px);
+	}
+	80%{
+		opacity: 1;
+		transform: translateY(-5px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
