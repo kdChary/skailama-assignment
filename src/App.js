@@ -1,12 +1,19 @@
 import React from 'react';
+import Profile from './pages/profile/Profile'
 
-import Sidebar from './components/sidebar/Sidebar'
+
 // import Navbar from './components/navbar/Navbar';
+
+/*
+	* create a separate component for path
+	* Do code clean-up in Side bar
+	* also add routing.
+*/
 
 const App = () => {
 	return (
 		<div>
-			<Sidebar />
+			<Profile />
 		</div>
 	);
 };
