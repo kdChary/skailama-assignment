@@ -1,0 +1,35 @@
+.uploadType {
+	list-style-type: none;
+	flex: 1 25%;
+	display: flex;
+	gap: 5%;
+	border: solid 1.5px #999999;
+	border-radius: 5px;
+	padding: 10px 13px;
+	cursor: pointer;
+
+	&:hover {
+		box-shadow: 2px 5px 15px #00000050;
+		transform: translateY(-3px);
+	}
+
+	&:active {
+		box-shadow: 2px 5px 5px #00000020;
+		transform: translateY(-2px);
+	}
+
+	.imgCard {
+		width: 48px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	h3 {
+		font-size: 17px;
+		font-weight: 600;
+		/* text-align: center; */
+		margin: auto;
+	}
+}
