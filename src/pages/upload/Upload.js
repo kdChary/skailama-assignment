@@ -6,7 +6,7 @@ import Header from '../../components/header/Header';
 import UploadComponent from '../../components/upload/UploadComponent'
 
 const uploadTypes = [
-	{ name: 'Youtube', url: '/images/youtube.png', },
+	{ name: 'Youtube', url: '/images/youtube.png' },
 	{
 		name: 'Spotify',
 		url: '/images/spotify.png',
@@ -14,6 +14,10 @@ const uploadTypes = [
 	{
 		name: 'Rss Feed',
 		url: '/images/rss.png',
+	},
+	{
+		name: 'Upload Media or Text File',
+		url: '/images/cloud_upload.png',
 	},
 ];
 const Upload = () => {
