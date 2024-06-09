@@ -1,9 +1,8 @@
 import React from 'react';
-import { MdOutlineHome } from 'react-icons/md';
-import { FaCaretDown, FaRegBell } from 'react-icons/fa';
 
 import './Profile.css';
 import Sidebar from '../../components/sidebar/Sidebar';
+import Header from '../../components/header/Header';
 
 // const countries = {
 // 	'EN':'https://flagicons.lipis.dev/flags/4x3/gb.svg',
@@ -21,27 +20,7 @@ const Profile = () => {
 		<section className="page">
 			<Sidebar />
 			<div className="content">
-				<div className="header">
-					<div className="headerLeft">
-						<MdOutlineHome className="icon" />
-						<h4 className="path">
-							<span>/</span>Account settings
-						</h4>
-					</div>
-
-					<div className="headerRight">
-						<span className="language">
-							<FaCaretDown />
-							EN
-							<img
-								src="https://img.icons8.com/?size=100&id=t3NE3BsOAQwq&format=png&color=000000"
-								alt="England"
-							/>
-						</span>
-
-						<FaRegBell className="bellIcon" />
-					</div>
-				</div>
+				<Header />
 
 				<article className="profile">
 					<h2 className="title">Account Settings</h2>
