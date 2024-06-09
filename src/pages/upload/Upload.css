@@ -1,120 +1,78 @@
-.page {
+.title {
+	font-family: Roboto;
+	font-size: 25px;
+	font-weight: bolder;
+}
 
-	.content {
+.uploadWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 
-		.title {
-			font-family: Roboto;
-			font-size: 25px;
-			font-weight: bolder;
+	.uploadingOptions {
+		display: flex;
+		flex-flow: wrap;
+		gap: 33px;
+	}
+
+}
+
+.or {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	color: #4455;
+	letter-spacing: 1px;
+}
+
+.localUpload {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+	align-items: center;
+	border: dashed 1.5px #999999;
+	border-radius: 11px;
+	padding: 13px 13px;
+
+	.cloudImg {
+		width: 78px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.uploadInstruction {
+		color: #455;
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+
+	.uploadType {
+		color: #4555;
+		font-weight: 300;
+		letter-spacing: 1px;
+	}
+
+	button {
+		padding: 6px 15px;
+		border: solid 1.6px #7e22ce;
+		border-radius: 20px;
+		color: #7e22ce;
+		background: transparent;
+
+		font-size: 13px;
+		font-weight: 500;
+		letter-spacing: 1px;
+
+		&:hover {
+			box-shadow: 2px 5px 15px #00000050;
+			transform: translateY(-3px);
 		}
 
-		.uploadWrapper {
-			display: flex;
-			flex-direction: column;
-			gap: 20px;
-
-			.uploadingOptions {
-				display: flex;
-				flex-flow: wrap;
-				gap: 33px;
-
-				li {
-					list-style-type: none;
-					flex: 1 25%;
-					display: flex;
-					gap: 5%;
-					border: solid 1.5px #999999;
-					border-radius: 5px;
-					padding: 10px 13px;
-					cursor: pointer;
-
-					&:hover{
-						box-shadow: 2px 5px 15px #00000050;
-						transform: translateY(-3px);
-					}
-
-					&:active{
-						box-shadow: 2px 5px 5px #00000020;
-						transform: translateY(-2px);
-					}
-
-					.imgCard{
-						width: 48px;
-						img{
-						width: 100%;
-					}
-				}
-
-					h3{
-						font-size: 17px;
-						font-weight: 600;
-						/* text-align: center; */
-						margin: auto;
-					}
-				}
-
-			}
-
-			.or {
-				text-align: center;
-				font-size: 15px;
-				font-weight: 600;
-				color: #4455;
-				letter-spacing: 1px;
-			}
-
-			.localUpload {
-				display: flex;
-				flex-direction: column;
-				gap: 13px;
-				align-items: center;
-				border: dashed 1.5px #999999;
-				border-radius: 11px;
-				padding: 13px 13px;
-
-				.cloudImg {
-					width: 78px;
-
-					img {
-						width: 100%;
-					}
-				}
-
-				.uploadInstruction {
-					color: #455;
-					font-weight: 400;
-					letter-spacing: 1px;
-				}
-
-				.uploadType {
-					color: #4555;
-					font-weight: 300;
-					letter-spacing: 1px;
-				}
-
-				button {
-					padding: 6px 15px;
-					border: solid 1.6px #7e22ce;
-					border-radius: 20px;
-					color: #7e22ce;
-					background: transparent;
-
-					font-size: 13px;
-					font-weight: 500;
-					letter-spacing: 1px;
-
-					&:hover{
-						box-shadow: 2px 5px 15px #00000050;
-						transform: translateY(-3px);
-					}
-
-					&:active{
-						box-shadow: 2px 5px 5px #00000020;
-						transform: translateY(-2px);
-					}
-				}
-			}
-
+		&:active {
+			box-shadow: 2px 5px 5px #00000020;
+			transform: translateY(-2px);
 		}
 	}
 }
