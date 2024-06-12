@@ -13,40 +13,44 @@ const Files = () => {
 			</div>
 			<div className="tableWrapper">
 				<table className="uploadedFiles">
-					<tr className="headRow">
-						<th>Name</th>
-						<th>Upload Date & Time</th>
-						<th>Status</th>
-						<th>Actions</th>
-					</tr>
+					<thead>
+						<tr className="headRow">
+							<th>Name</th>
+							<th>Upload Date & Time</th>
+							<th>Status</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
 
-					<tr className="eachFile">
-						<td>Sample Name</td>
-						<td>{new Date().getFullYear()}</td>
-						<td>Done</td>
-						<td>
-							<button className='edit'>Edit</button>
-							<button className='delete'>Delete</button>
-						</td>
-					</tr>
-					<tr className="eachFile">
-						<td>Sample Name</td>
-						<td>{new Date().getFullYear()}</td>
-						<td>Done</td>
-						<td>
-							<button className='edit'>Edit</button>
-							<button className='delete'>Delete</button>
-						</td>
-					</tr>
-					<tr className="eachFile">
-						<td>Sample Name</td>
-						<td>{new Date().getFullYear()}</td>
-						<td>Done</td>
-						<td>
-							<button className='edit'>Edit</button>
-							<button className='delete'>Delete</button>
-						</td>
-					</tr>
+					<tbody>
+						<tr className="eachFile">
+							<td>Sample Name</td>
+							<td>{new Date().getFullYear()}</td>
+							<td>Done</td>
+							<td>
+								<button className="edit">Edit</button>
+								<button className="delete">Delete</button>
+							</td>
+						</tr>
+						<tr className="eachFile">
+							<td>Sample Name</td>
+							<td>{new Date().getFullYear()}</td>
+							<td>Done</td>
+							<td>
+								<button className="edit">Edit</button>
+								<button className="delete">Delete</button>
+							</td>
+						</tr>
+						<tr className="eachFile">
+							<td>Sample Name</td>
+							<td>{new Date().getFullYear()}</td>
+							<td>Done</td>
+							<td>
+								<button className="edit">Edit</button>
+								<button className="delete">Delete</button>
+							</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		</div>
